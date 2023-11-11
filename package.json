@@ -1,0 +1,60 @@
+{
+  "name": "decentraland",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "axios": "^1.5.1",
+    "core-js": "^3.8.3",
+    "firebase": "^10.5.0",
+    "maplibre-gl": "^3.3.1",
+    "mitt": "^3.0.1",
+    "swiper": "^10.3.1",
+    "vue-google-oauth2": "^1.5.10",
+    "vue-maplibre-gl": "^3.0.3",
+    "vue-responsive-video-background-player": "^1.3.5",
+    "vue-router": "^4.2.5",
+    "vue3-geolocation": "^1.0.0",
+    "vue3-google-login": "^2.0.24",
+    "vue3-google-map": "^0.18.0",
+    "vuejs-google-maps": "^0.2.0",
+    "vuejs-toggle-switch": "^3.0.6",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
